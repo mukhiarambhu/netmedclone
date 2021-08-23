@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -14,7 +15,8 @@
         <!-- hederPanel1 start-->
         <div id="divPanel1">
             <div id="panel1img1">
-                <img src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg" alt="">
+                <a href="home.html"><img src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg"
+                        alt=""></a>
             </div>
             <div id="searchbox">
                 <div id="searchbar">
@@ -68,14 +70,17 @@
                 <form id="registrationform">
                     <label for="name">Name</label>
                     <input type="text" id="name" placeholder="Enter Your Name">
+                    <p id="registrationform_name"></p>
                     <label for="email">Email</label>
                     <input type="text" id="email" placeholder="Enter Your Email">
+                    <p id="registrationform_email"></p>
                     <label for="password">Password</label>
                     <input type="text" id="password" placeholder="Choose Strong Password">
+                    <p id="registrationform_password"></p>
                 </form>
 
             </div>
-            <button id="signupbutton">SIGN UP</button>
+            <button id="signupbutton" onclick="signUpData(event)">SIGN UP</button>
             <div id="alreadyAccount">
                 <p>Already Have Account ? <a href="login.html">Sign In</a></p>
             </div>
@@ -90,3 +95,4 @@
 
 
 </html>
+<script src="signup.js"></script>
