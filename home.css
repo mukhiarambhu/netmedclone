@@ -432,6 +432,57 @@ ul li ul li:hover a {
   background-color: #32aeb1;
 }
 
+#div10container {
+  width: 98%;
+  margin: auto;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  position: relative;
+}
+#div10container h2 {
+  font-size: 24px;
+  color: #0b1219;
+}
+#div10container h2 > a {
+  float: right;
+  font-size: 14px;
+  color: #ef4281;
+  margin-top: 5px;
+  text-decoration: none;
+}
+#div10card_container {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid grey; */
+  justify-content: space-between;
+
+  text-align: center;
+}
+.div10_productcard {
+  width: 21%;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+.div10_productcard img {
+  width: 96%;
+  padding: 5px;
+}
+.div10_productcard p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 22px;
+  padding: 0 8px;
+  color: #0b1219;
+
+  margin-bottom: 10px;
+}
+.div10_productcard a {
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 15px;
+  color: #5ba41c;
+}
 #footerpanels {
   background-color: #ffffff;
   width: 100%;
