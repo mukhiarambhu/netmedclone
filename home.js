@@ -31,3 +31,44 @@ function slider() {
   }, 2000);
 }
 slider();
+
+// slider 1 end
+
+//slider2 start
+var left = 1;
+var right = 3;
+
+function show() {
+  document.getElementById("slideimage1").style.display = "inline-block";
+
+  for (i = left; i <= right; i++) {
+    document.getElementById("slideimage" + i).style.display = "inline-block";
+  }
+}
+function moveLeft() {
+  if (left <= 6 && right >= 3) {
+    document.getElementById("slideimage" + left).style.display = "none";
+    left += 1;
+    right += 1;
+    for (i = left; i <= right; i++) {
+      document.getElementById("slideimage" + i).style.display = "inline-block";
+    }
+  } else {
+    return;
+  }
+}
+
+function moveRight() {
+  if (left <= 6 && right >= 4) {
+    document.getElementById("slideimage" + right).style.display = "none";
+    left -= 1;
+    right -= 1;
+    for (i = left; i <= right; i++) {
+      document.getElementById("slideimage" + i).style.display = "inline-block";
+    }
+  } else {
+    return;
+  }
+}
+
+show();
