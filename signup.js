@@ -61,7 +61,6 @@ function validateform() {
     document.getElementById("name").value = null;
     document.getElementById("email").value = null;
     document.getElementById("password").value = null;
-    window.location.href = "login.html";
   } else {
     return false;
   }

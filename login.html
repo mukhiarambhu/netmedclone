@@ -69,13 +69,15 @@
                 <form id="loginform">
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="Enter Your Email">
+                    <input type="text" id="emaillogin" placeholder="Enter Your Email">
+                    <p id="errorEmail"></p>
                     <label for="password">Password</label>
-                    <input type="text" id="password" placeholder="Enter Your Password">
+                    <input type="password" id="passwordlogin" placeholder="Enter Your Password">
+                    <p id="errorPassword"></p>
                 </form>
 
             </div>
-            <button id="signupbutton">LOG IN</button>
+            <button id="signinbutton" onclick="signin(event)">LOG IN</button>
             <div id="alreadyAccount">
                 <p>Don't Have Account ? <a href="signup.html">Sign Up</a></p>
             </div>
@@ -90,3 +92,4 @@
 
 
 </html>
+<script src="login.js"></script>
