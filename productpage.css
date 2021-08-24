@@ -152,7 +152,7 @@ ul li ul li:hover a {
 #productmaincontainer {
   width: 98%;
   height: 1400px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: auto;
   margin-top: 30px;
   display: flex;
@@ -162,14 +162,14 @@ ul li ul li:hover a {
 #product_left_container {
   width: 20%;
   height: 1200px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* display: flex; */
 }
 
 #product_right_container {
   width: 80%;
   height: 1200px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-left: 20px;
   /* display: flex; */
 }
@@ -240,8 +240,8 @@ ul li ul li:hover a {
 
 #productcarddiv {
   width: 100%;
-  height: 800px;
-  border: 1px solid black;
+  /* height: 800px; */
+  /* border: 1px solid black; */
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(4, 23%);
@@ -295,4 +295,55 @@ h5 {
   box-shadow: none;
 
   border-color: #24aeb1;
+}
+#productfilter {
+  width: 98%;
+  /* height: 850px;
+  border: 1px solid red; */
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#productfilter h1 {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #151b39;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+#input1categories {
+  width: 90%;
+  height: 20px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#input1categories + img {
+  position: relative;
+  top: -30px;
+  left: 85%;
+  background-color: #f2f3f3;
+  border-radius: 50%;
+}
+#categoriesscroll {
+  margin-top: -10px;
+  height: 250px;
+
+  overflow-y: scroll;
+  width: 90%;
+}
+#categoriesscroll span {
+  padding-left: 5px;
+  font-size: 15px;
+}
+#categoriesscroll span input {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+hr {
+  width: 95%;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.062);
+  margin-top: 15px;
 }

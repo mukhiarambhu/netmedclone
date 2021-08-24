@@ -313,9 +313,33 @@ function appendProducts() {
 
     let btn = document.createElement("button");
     btn.innerHTML = "ADD TO CART";
-
     div.append(p_image, p_name, company_name, p_price, btn);
     displaydiv.append(div);
+
+    btn.onclick = function () {
+      addtoCart(product);
+    };
   });
 }
 appendProducts();
+
+if (localStorage.getItem("cart") === null) {
+  localStorage.setItem("cart", JSON.stringify([]));
+}
+
+function addtoCart(el) {
+  var cart_data = JSON.parse(localStorage.getItem("cart"));
+  // console.log(cart_data[0] === cart_data[1])
+  let addthis = true;
+
+  for (let i = 0; i < cart_data.length; i++) {
+    if (cart_data[i].name == el.name) {
+      addthis = false;
+      alert("This Product is already in Your Cart");
+    }
+  }
+  if (addthis == true) {
+    cart_data.push(el);
+    localStorage.setItem("cart", JSON.stringify(cart_data));
+  }
+}
