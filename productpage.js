@@ -35,7 +35,7 @@ function slider() {
 }
 slider();
 
-console.log("yes");
+//product appending on page
 
 var product_data = [
   {
@@ -55,7 +55,7 @@ var product_data = [
       "https://www.netmeds.com/images/product-v1/150x150/948303/maxirich_gold_capsules_7s_0_0.jpg",
   },
   {
-    name: "DePURA Kids 400 IU Nano Drops 15 ml",
+    name: "DePURA Kids 400 IU ",
     price: "Rs.58",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
@@ -71,7 +71,7 @@ var product_data = [
       "https://www.netmeds.com/images/product-v1/150x150/918985/ecod_omega_softgels_30s_0_0.jpg",
   },
   {
-    name: "DePURA 60000 Iu Oral Solution",
+    name: "DePURA 60000 Iu ",
     price: "Rs.77",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
@@ -79,7 +79,7 @@ var product_data = [
       "https://www.netmeds.com/images/product-v1/150x150/918982/depura_vitamin_d3_oral_solution_60k_sugar_free_5_ml_4s_0_0.jpg",
   },
   {
-    name: "Pure Nutrition Apple Cider Vinegar Plus Veg Capsule 90's",
+    name: "Pure Nutrition Apple Cider Vinegar",
     price: "Rs.1019",
     Category: "medicine",
     brand: "Zydus",
@@ -127,7 +127,7 @@ var product_data = [
       "https://www.netmeds.com/images/product-v1/150x150/959840/purefoods_vitamin_e_softgel_capsule_60s_0_0.jpg",
   },
   {
-    name: "PureFoods Multivitamin",
+    name: "PureFoods Multivitamin 100mg",
     price: "Rs.1350",
     Category: "multivitamin",
     brand: "Mkt: Rollins International",
@@ -143,7 +143,7 @@ var product_data = [
       "https://www.netmeds.com/images/product-v1/150x150/959838/purefoods_multivitamin_for_men_tablet_60s_0_0.jpg",
   },
   {
-    name: "Neurapid Astaxanthin Veg Capsule 60's",
+    name: "Neurapid Astaxanthin Capsule ",
     price: "Rs.650",
     Category: "multivitamin",
     brand: "Mkt: Amritha Naturmed's Herbal Products",
@@ -151,7 +151,7 @@ var product_data = [
       "https://www.netmeds.com/images/product-v1/150x150/960517/neurapid_astaxanthin_veg_capsule_60s_0_0.jpg",
   },
   {
-    name: "Neurapid Coenzyme Q10 Veg Capsule 60's",
+    name: "Neurapid Coenzyme Q10 ",
     price: "Rs.1150",
     Category: "multivitamin",
     brand: "Mkt: Amritha Naturmed's Herbal Products",
@@ -287,3 +287,35 @@ var product_data = [
       "https://www.netmeds.com/images/product-v1/150x150/407903/dr_morepen_digital_thermometer_flexi_tip_mt222_0.jpg",
   },
 ];
+
+var product_data_stringfy = JSON.stringify(product_data);
+localStorage.setItem("products", product_data_stringfy);
+
+var parsed_data = JSON.parse(localStorage.getItem("products"));
+
+function appendProducts() {
+  var displaydiv = document.getElementById("productcarddiv");
+
+  parsed_data.forEach(function (product) {
+    let div = document.createElement("div");
+
+    let p_image = document.createElement("img");
+    p_image.src = product.image;
+
+    let p_name = document.createElement("h5");
+    p_name.innerText = product.name;
+
+    let company_name = document.createElement("p");
+    company_name.innerText = product.brand;
+
+    let p_price = document.createElement("p");
+    p_price.innerText = product.price;
+
+    let btn = document.createElement("button");
+    btn.innerHTML = "ADD TO CART";
+
+    div.append(p_image, p_name, company_name, p_price, btn);
+    displaydiv.append(div);
+  });
+}
+appendProducts();
