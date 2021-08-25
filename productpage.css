@@ -70,6 +70,17 @@ body {
   font-size: 15px;
   font-weight: bolder;
 }
+#carttoal {
+  width: 20px;
+  height: 20px;
+  /* border: 1px solid white; */
+  position: absolute;
+  right: 20.7%;
+  border-radius: 60%;
+  background-color: #f01595;
+  text-align: center;
+  font-size: 15px;
+}
 
 #singuplogo > a {
   text-decoration: none;

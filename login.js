@@ -37,7 +37,7 @@ function verifyDetails() {
     }
   }
   if (flag) {
-    window.location.href = "home.html";
+    window.location.href = "productpage.html";
   } else {
     return false;
   }

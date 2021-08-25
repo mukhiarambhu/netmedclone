@@ -40,7 +40,7 @@ slider();
 var product_data = [
   {
     name: "New FreeFlex Forte Soflets 15's",
-    price: "Rs.594",
+    price: "594",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
     image:
@@ -48,7 +48,7 @@ var product_data = [
   },
   {
     name: "Maxirich Gold Capsules 7's",
-    price: "Rs.58",
+    price: "58",
     Category: "medicine",
     brand: "Cipla Ltd(Otc",
     image:
@@ -56,7 +56,7 @@ var product_data = [
   },
   {
     name: "DePURA Kids 400 IU ",
-    price: "Rs.58",
+    price: "58",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
     image:
@@ -64,7 +64,7 @@ var product_data = [
   },
   {
     name: "E-Cod Omega Softgels",
-    price: "Rs.331",
+    price: "331",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
     image:
@@ -72,7 +72,7 @@ var product_data = [
   },
   {
     name: "DePURA 60000 Iu ",
-    price: "Rs.77",
+    price: "77",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
     image:
@@ -80,7 +80,7 @@ var product_data = [
   },
   {
     name: "Pure Nutrition Apple Cider Vinegar",
-    price: "Rs.1019",
+    price: "1019",
     Category: "medicine",
     brand: "Zydus",
     image:
@@ -88,7 +88,7 @@ var product_data = [
   },
   {
     name: "Berrycran Softgels 10's",
-    price: "Rs.277",
+    price: "277",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
     image:
@@ -96,7 +96,7 @@ var product_data = [
   },
   {
     name: "CollaFlex Pro Sachets 12.1gm",
-    price: "Rs.277",
+    price: "277",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
     image:
@@ -104,7 +104,7 @@ var product_data = [
   },
   {
     name: "INLIFE Vitamin B12 Tablets 60",
-    price: "Rs.420",
+    price: "420",
     Category: "multivitamin",
     brand: "Mkt: Inlife Pharma",
     image:
@@ -112,7 +112,7 @@ var product_data = [
   },
   {
     name: "HeakthAid Vitamin C (orange) 100mg",
-    price: "Rs.1045",
+    price: "1045",
     Category: "multivitamin",
     brand: "Mkt: Radicura Pharmaceuticals",
     image:
@@ -120,7 +120,7 @@ var product_data = [
   },
   {
     name: "PureFoods Vitamin-E",
-    price: "Rs.899",
+    price: "899",
     Category: "multivitamin",
     brand: "Mkt: Rollins International",
     image:
@@ -128,7 +128,7 @@ var product_data = [
   },
   {
     name: "PureFoods Multivitamin 100mg",
-    price: "Rs.1350",
+    price: "1350",
     Category: "multivitamin",
     brand: "Mkt: Rollins International",
     image:
@@ -136,7 +136,7 @@ var product_data = [
   },
   {
     name: "PureFoods Multivitamin",
-    price: "Rs.250",
+    price: "250",
     Category: "multivitamin",
     brand: "Mkt: Rollins International",
     image:
@@ -144,7 +144,7 @@ var product_data = [
   },
   {
     name: "Neurapid Astaxanthin Capsule ",
-    price: "Rs.650",
+    price: "650",
     Category: "multivitamin",
     brand: "Mkt: Amritha Naturmed's Herbal Products",
     image:
@@ -152,7 +152,7 @@ var product_data = [
   },
   {
     name: "Neurapid Coenzyme Q10 ",
-    price: "Rs.1150",
+    price: "1150",
     Category: "multivitamin",
     brand: "Mkt: Amritha Naturmed's Herbal Products",
     image:
@@ -160,7 +160,7 @@ var product_data = [
   },
   {
     name: "Neurapid Pre and Probiotics 30",
-    price: "Rs.650",
+    price: "650",
     Category: "Probitic",
     brand: "zydus",
     image:
@@ -168,7 +168,7 @@ var product_data = [
   },
   {
     name: "Neurapid Pre Probiotics 50 Billion",
-    price: "Rs.1550",
+    price: "1550",
     Category: "Probitic",
     brand: "zydus",
     image:
@@ -176,7 +176,7 @@ var product_data = [
   },
   {
     name: "Probiotics 50 Billion",
-    price: "Rs.585",
+    price: "585",
     Category: "Probitic",
     brand: "BonAyu Probiotics",
     image:
@@ -184,7 +184,7 @@ var product_data = [
   },
   {
     name: "BonAyu Probiotics ",
-    price: "Rs.880",
+    price: "880",
     Category: "Probitic",
     brand: "BonAyu Probiotics",
     image:
@@ -192,7 +192,7 @@ var product_data = [
   },
   {
     name: "Boldfit Probiotics Capsule 60's ",
-    price: "Rs.785",
+    price: "785",
     Category: "Probitic",
     brand: "zydus",
     image:
@@ -200,7 +200,7 @@ var product_data = [
   },
   {
     name: "CF Probiotics 30 Billion+ ",
-    price: "Rs.985",
+    price: "985",
     Category: "Probitic",
     brand: "zydus",
     image:
@@ -208,7 +208,7 @@ var product_data = [
   },
   {
     name: "Shreys Biofibe - Pre & Probiotic",
-    price: "Rs.635",
+    price: "635",
     Category: "Probitic",
     brand: "BonAyu Probiotics",
     image:
@@ -216,7 +216,7 @@ var product_data = [
   },
   {
     name: "Pro Active Sachet 1gm",
-    price: "Rs.54",
+    price: "54",
     Category: "Probitic",
     brand: "BonAyu Probiotics",
     image:
@@ -224,7 +224,7 @@ var product_data = [
   },
   {
     name: "Tri-Activ Instant Hand Sanitizer",
-    price: "Rs.175",
+    price: "175",
     Category: "covid Essential",
     brand: "Piramal Healthcare Ltd",
     image:
@@ -232,7 +232,7 @@ var product_data = [
   },
   {
     name: "Dettol Instant Hand Sanitizer",
-    price: "Rs.160",
+    price: "160",
     Category: "covid Essential",
     brand: "Reckitt Benckiser India Ltd",
     image:
@@ -240,7 +240,7 @@ var product_data = [
   },
   {
     name: "Dettol Disinfectant Lime",
-    price: "Rs.98",
+    price: "98",
     Category: "covid Essential",
     brand: "Reckitt Benckiser India Ltd",
     image:
@@ -248,7 +248,7 @@ var product_data = [
   },
   {
     name: "Dettol Liquid HandWash",
-    price: "Rs.98",
+    price: "98",
     Category: "covid Essential",
     brand: "Reckitt Benckiser India Ltd",
     image:
@@ -256,7 +256,7 @@ var product_data = [
   },
   {
     name: "Zebronics Fingertip Pulse Oximeter",
-    price: "Rs.1409",
+    price: "1409",
     Category: "covid Essential",
     brand: "Zebronics India Private Limited",
     image:
@@ -264,7 +264,7 @@ var product_data = [
   },
   {
     name: "Choicemmed Finger Tip Pulse Oximeter",
-    price: "Rs.1575",
+    price: "1575",
     Category: "covid Essential",
     brand: "Beijing Choice Electronic",
     image:
@@ -272,7 +272,7 @@ var product_data = [
   },
   {
     name: "Choicemmed Finger Tip Pulse Oximeter",
-    price: "Rs.1575",
+    price: "1575",
     Category: "covid Essential",
     brand: "Sahyog Wellness Infrared Thermometer",
     image:
@@ -280,7 +280,7 @@ var product_data = [
   },
   {
     name: "Dr.Morepen Digital Thermometer ",
-    price: "Rs.1575",
+    price: "1575",
     Category: "covid Essential",
     brand: "Dr.Morepen Digital",
     image:
@@ -309,7 +309,7 @@ function appendProducts() {
     company_name.innerText = product.brand;
 
     let p_price = document.createElement("p");
-    p_price.innerText = product.price;
+    p_price.innerText = `Rs. ${product.price}`;
 
     let btn = document.createElement("button");
     btn.innerHTML = "ADD TO CART";
@@ -326,10 +326,11 @@ appendProducts();
 if (localStorage.getItem("cart") === null) {
   localStorage.setItem("cart", JSON.stringify([]));
 }
-
+var total_cart_product = 0;
+var totacartdisplay = document.getElementById("carttoal");
 function addtoCart(el) {
   var cart_data = JSON.parse(localStorage.getItem("cart"));
-  // console.log(cart_data[0] === cart_data[1])
+
   let addthis = true;
 
   for (let i = 0; i < cart_data.length; i++) {
@@ -341,5 +342,19 @@ function addtoCart(el) {
   if (addthis == true) {
     cart_data.push(el);
     localStorage.setItem("cart", JSON.stringify(cart_data));
+    total_cart_product++;
   }
+  document.getElementById("carttoal").innerHTML = null;
+  var cart_total_p = document.createElement("p");
+  cart_total_p.innerText = total_cart_product;
+  totacartdisplay.append(cart_total_p);
 }
+
+// console.log(product_list);
+
+// function hightolow() {
+//   var product_list = JSON.parse(localStorage.getItem("products"));
+//   product_list.sort(function (a, b) {
+//     return b.price - a.price;
+//   });
+// }
