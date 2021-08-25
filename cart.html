@@ -70,7 +70,15 @@
 
                 </div>
 
-                <!-- div 2 endr-->
+                <!-- div 2 slider endr-->
+
+                <div id="displayCartProduct">
+                    <h2>PRODUCTS</h2>
+
+                    <span>
+
+                    </span>
+                </div>
             </div>
             <div id="orderrightdiv">
                 <div id="cartpromo">
@@ -80,30 +88,31 @@
                     <h5>
                         APPLY PROMOCODE / NMS SUPERCASH
                     </h5>
-                    <span> <input type="text" placeholder="Apply Promo Code"> <button>Apply</button><span>
+                    <span> <input type="text" placeholder="Apply Promo Code" id="promocode">
+                        <button onclick="applyDiscount()">Apply</button><span>
                             <p>Get flat discount! Vouchers applicable in <br> payment options.</p>
                 </div>
                 <div id="paymentDetails">
                     <h4>PAYMENT DETAILS</h4>
                     <div class="calculation">
                         <p>MRP Total</p>
-                        <p>Rs-</p>
+                        <p id="mrptotal"></p>
                     </div>
                     <div class="calculation">
                         <p>NetMeds Discount</p>
-                        <p>Rs-</p>
+                        <p id="meddiscountdisplay"></p>
                     </div>
                     <div class="calculation">
                         <p class="bold">Total Amount*</p>
-                        <p class="bold">Rs-</p>
+                        <p class="bold" id="totalamountdisplay"></p>
                     </div>
                     <div id="showbanner">
-                        <p>TOTAL SAVING RS.</p>
+                        <p id="totalsaving_display"></p>
                     </div>
                     <div id="proceedtocheckout">
                         <div id="showfinalprice">
                             <p>TOTAL AMOUNT</p>
-                            <p class="bold">Rs.</p>
+                            <p class="bold" id="totalamountdisplay1"></p>
                         </div>
                         <button id="proceed">PROCEED</button>
                     </div>
