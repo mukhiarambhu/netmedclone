@@ -17,6 +17,12 @@ body {
   align-items: center;
   /* position: fixed; */
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
 #divPanel1 > div {
   margin: 0 15px;
 }
@@ -70,12 +76,12 @@ body {
   height: 20px;
   /* border: 1px solid white; */
   position: absolute;
-  right: 20.9%;
+  right: 20.92%;
   border-radius: 60%;
   background-color: #f01595;
   text-align: center;
   font-size: 15px;
-  top: 3%;
+  top: 30%;
 }
 
 #singuplogo > a {
@@ -90,7 +96,7 @@ body {
   height: 700px;
   margin: auto;
   border: 1px solid black;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 #cartdiv h1 {
   font-family: LatoBold;
@@ -178,7 +184,7 @@ body {
 #promo {
   background-color: #ffffff;
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 #promo h5 {
   font-family: LatoBold;
@@ -215,7 +221,8 @@ body {
 #paymentDetails {
   background-color: #ffffff;
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+  height: 270px !important;
 }
 #paymentDetails h4 {
   font-family: LatoBold;
@@ -286,7 +293,7 @@ body {
   font-family: LatoBold;
   color: white;
   border-radius: 10px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 #disclaimer {

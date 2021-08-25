@@ -35,6 +35,14 @@ function slider() {
 }
 slider();
 
+//adding sticky menu
+window.addEventListener("scroll", function () {
+  var navbar = document.getElementById("header");
+
+  if (window.pageYOffset == 0) {
+    navbar.classList.add("sticky");
+  }
+});
 //product appending on page
 
 var product_data = [

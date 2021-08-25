@@ -33,3 +33,13 @@ function slider() {
 slider();
 
 // slider 1 end
+
+//providing sticky part
+
+window.addEventListener("scroll", function () {
+  var navbar = document.getElementById("divPanel1");
+
+  if (window.pageYOffset == 0) {
+    navbar.classList.add("sticky");
+  }
+});
