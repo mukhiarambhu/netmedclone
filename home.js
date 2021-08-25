@@ -1,3 +1,10 @@
+window.addEventListener("scroll", function () {
+  var navbar = document.getElementById("header");
+
+  if (window.pageYOffset == 0) {
+    navbar.classList.add("sticky");
+  }
+});
 //slider1 code
 
 let slider1_image = [
@@ -72,11 +79,3 @@ function moveRight() {
 }
 
 show();
-
-window.addEventListener("scroll", function () {
-  var navbar = document.getElementById("header");
-
-  if (window.pageYOffset == 0) {
-    navbar.classList.add("sticky");
-  }
-});

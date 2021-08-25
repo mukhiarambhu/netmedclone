@@ -143,7 +143,7 @@ function applyDiscount() {
   total_display1.append(`Rs.${totalamount}`);
 
   var totalsaving_display = document.getElementById("totalsaving_display");
-  totalsaving_display.append(`TOTAL SAVING Rs.${discount}`);
+  totalsaving_display.append(` Rs.${discount}`);
 
   document.getElementById("promocode").value = null;
 }
