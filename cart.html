@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="divPanel1">
+        <div id="panel1img1">
+            <a href="home.html"> <img src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg"
+                    alt=""></a>
+        </div>
+        <div id="searchbox">
+            <div id="searchbar">
+                <label for="">Deliver to</label>
+                <select name="city" id="city">
+
+                    <option value="bengaluru">110001</option>
+                    <option value="delhi">411015</option>
+                    <option value="pune">110022</option>
+                    <option value="mumbai">411015</option>
+                </select>
+            </div>
+            <div id="horizontalline">
+                <p>|</p>
+            </div>
+            <div id="searchInput">
+                <input type="text" placeholder="Search for medicine & wellnes Products...">
+            </div>
+        </div>
+        <div id="loadpx">
+            <img src="projectimage\Capture.JPG" alt="">
+            <a>Upload Rx</a>
+        </div>
+        <div id="cartlogo">
+            <img src="projectimage\cart.JPG" alt="">
+            <a>Cart</a>
+            <a href="#">
+                <div id="carttoal"></div>
+            </a>
+        </div>
+        <div id="singuplogo">
+            <img src="projectimage\signin.JPG" alt="">
+            <a href="signup.html">Rambhu</a>
+        </div>
+    </div>
+    <!-- cartdiv-->
+    <div id="cartdiv">
+        <h1>Order Summary</h1>
+        <div id='ordercarddiv'>
+            <div id="orderleftdiv">
+                <!-- div 2 start first slider-->
+                <div id="slideShow_auto1">
+                    <span class="arrowslide1 " id="prev">&#10094;</span>
+                    <span class="arrowslide1 " id="next">&#10095;</span>
+                    <div id="dotslide1">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+
+                </div>
+
+                <!-- div 2 endr-->
+            </div>
+            <div id="orderrightdiv">
+                <div id="cartpromo">
+                    <a href="login.html"> <img src="projectimage\cartpromo.JPG" alt=""></a>
+                </div>
+                <div id="promo">
+                    <h5>
+                        APPLY PROMOCODE / NMS SUPERCASH
+                    </h5>
+                    <span> <input type="text" placeholder="Apply Promo Code"> <button>Apply</button><span>
+                            <p>Get flat discount! Vouchers applicable in <br> payment options.</p>
+                </div>
+                <div id="paymentDetails">
+                    <h4>PAYMENT DETAILS</h4>
+                    <div class="calculation">
+                        <p>MRP Total</p>
+                        <p>Rs-</p>
+                    </div>
+                    <div class="calculation">
+                        <p>NetMeds Discount</p>
+                        <p>Rs-</p>
+                    </div>
+                    <div class="calculation">
+                        <p class="bold">Total Amount*</p>
+                        <p class="bold">Rs-</p>
+                    </div>
+                    <div id="showbanner">
+                        <p>TOTAL SAVING RS.</p>
+                    </div>
+                    <div id="proceedtocheckout">
+                        <div id="showfinalprice">
+                            <p>TOTAL AMOUNT</p>
+                            <p class="bold">Rs.</p>
+                        </div>
+                        <button id="proceed">PROCEED</button>
+                    </div>
+                </div>
+                <div id="disclaimer">
+                    <p>Netmeds is a technology platform to facilitate transaction of business. The products and services
+                        are offered for sale
+                        by the sellers. The user authorizes the delivery personnel to be his agent for delivery of the
+                        goods. For details read
+                        <span>Terms & Conditions</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="cart.js"></script>
