@@ -56,7 +56,7 @@ var product_data = [
   },
   {
     name: "Maxirich Gold Capsules 7's",
-    price: "58",
+    price: "42",
     Category: "medicine",
     brand: "Cipla Ltd(Otc",
     image:
@@ -104,7 +104,7 @@ var product_data = [
   },
   {
     name: "CollaFlex Pro Sachets 12.1gm",
-    price: "277",
+    price: "327",
     Category: "medicine",
     brand: "Mkt: Sanofti India Limited",
     image:
@@ -200,7 +200,7 @@ var product_data = [
   },
   {
     name: "Boldfit Probiotics Capsule 60's ",
-    price: "785",
+    price: "386",
     Category: "Probitic",
     brand: "zydus",
     image:
@@ -248,7 +248,7 @@ var product_data = [
   },
   {
     name: "Dettol Disinfectant Lime",
-    price: "98",
+    price: "63",
     Category: "covid Essential",
     brand: "Reckitt Benckiser India Ltd",
     image:
@@ -271,15 +271,15 @@ var product_data = [
       "https://www.netmeds.com/images/product-v1/150x150/915643/zebronics_fingertip_pulse_oximeter_zeb_fpo500_0_0.jpg",
   },
   {
-    name: "Choicemmed Finger Tip Pulse Oximeter",
-    price: "1575",
+    name: "Choicemmed Pulse Oximeter",
+    price: "1285",
     Category: "covid Essential",
     brand: "Beijing Choice Electronic",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/858055/choicemmed_finger_tip_pulse_oximeter_0.jpg",
   },
   {
-    name: "Choicemmed Finger Tip Pulse Oximeter",
+    name: "Finger Tip Pulse Oximeter",
     price: "1575",
     Category: "covid Essential",
     brand: "Sahyog Wellness Infrared Thermometer",
@@ -288,7 +288,7 @@ var product_data = [
   },
   {
     name: "Dr.Morepen Digital Thermometer ",
-    price: "1575",
+    price: "625",
     Category: "covid Essential",
     brand: "Dr.Morepen Digital",
     image:
@@ -301,9 +301,9 @@ localStorage.setItem("products", product_data_stringfy);
 
 var parsed_data = JSON.parse(localStorage.getItem("products"));
 
-function appendProducts() {
-  var displaydiv = document.getElementById("productcarddiv");
+var displaydiv = document.getElementById("productcarddiv");
 
+function showall() {
   parsed_data.forEach(function (product) {
     let div = document.createElement("div");
 
@@ -329,7 +329,37 @@ function appendProducts() {
     };
   });
 }
-appendProducts();
+showall();
+
+function appendProducts(p) {
+  let parsed_data = p;
+
+  displaydiv.innerHTML = null;
+  parsed_data.forEach(function (product) {
+    let div = document.createElement("div");
+
+    let p_image = document.createElement("img");
+    p_image.src = product.image;
+
+    let p_name = document.createElement("h5");
+    p_name.innerText = product.name;
+
+    let company_name = document.createElement("p");
+    company_name.innerText = product.brand;
+
+    let p_price = document.createElement("p");
+    p_price.innerText = `Rs. ${product.price}`;
+
+    let btn = document.createElement("button");
+    btn.innerHTML = "ADD TO CART";
+    div.append(p_image, p_name, company_name, p_price, btn);
+    displaydiv.append(div);
+
+    btn.onclick = function () {
+      addtoCart(product);
+    };
+  });
+}
 
 if (localStorage.getItem("cart") === null) {
   localStorage.setItem("cart", JSON.stringify([]));
@@ -361,9 +391,18 @@ function addtoCart(el) {
 
 // console.log(product_list);
 
-// function hightolow() {
-//   var product_list = JSON.parse(localStorage.getItem("products"));
-//   product_list.sort(function (a, b) {
-//     return b.price - a.price;
-//   });
-// }
+function hightolow() {
+  var product_list = JSON.parse(localStorage.getItem("products"));
+  product_list.sort(function (a, b) {
+    return b.price - a.price;
+  });
+  appendProducts(product_list);
+}
+
+function lowtohigh() {
+  var product_list = JSON.parse(localStorage.getItem("products"));
+  product_list.sort(function (a, b) {
+    return a.price - b.price;
+  });
+  appendProducts(product_list);
+}
