@@ -53,6 +53,7 @@ var product_data = [
     brand: "Mkt: Sanofti India Limited",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/918991/freeflex_forte_glucosamine_chondroitin_soflets_15s_0_0.jpg",
+    popularity: 3,
   },
   {
     name: "Maxirich Gold Capsules 7's",
@@ -61,6 +62,7 @@ var product_data = [
     brand: "Cipla Ltd(Otc",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/948303/maxirich_gold_capsules_7s_0_0.jpg",
+    popularity: 2,
   },
   {
     name: "DePURA Kids 400 IU ",
@@ -69,6 +71,7 @@ var product_data = [
     brand: "Mkt: Sanofti India Limited",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/918984/depura_kids_400_vitamin_d3_nano_drops_15_ml_0_0.jpg",
+    popularity: 1,
   },
   {
     name: "E-Cod Omega Softgels",
@@ -77,6 +80,7 @@ var product_data = [
     brand: "Mkt: Sanofti India Limited",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/918985/ecod_omega_softgels_30s_0_0.jpg",
+    popularity: 5,
   },
   {
     name: "DePURA 60000 Iu ",
@@ -85,6 +89,7 @@ var product_data = [
     brand: "Mkt: Sanofti India Limited",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/918982/depura_vitamin_d3_oral_solution_60k_sugar_free_5_ml_4s_0_0.jpg",
+    popularity: 6,
   },
   {
     name: "Pure Nutrition Apple Cider Vinegar",
@@ -93,6 +98,7 @@ var product_data = [
     brand: "Zydus",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/812807/pure_nutrition_apple_cider_vinegar_plus_veg_capsule_90_s_0.jpg",
+    popularity: 7,
   },
   {
     name: "Berrycran Softgels 10's",
@@ -101,6 +107,7 @@ var product_data = [
     brand: "Mkt: Sanofti India Limited",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/918978/berrycran_urinary_tract_health_capsules_10s_0_0.jpg",
+    popularity: 4,
   },
   {
     name: "CollaFlex Pro Sachets 12.1gm",
@@ -109,6 +116,7 @@ var product_data = [
     brand: "Mkt: Sanofti India Limited",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/918979/collaflex_pro_joint_sachet_12_1g_10s_0_0.jpg",
+    popularity: 6,
   },
   {
     name: "INLIFE Vitamin B12 Tablets 60",
@@ -117,6 +125,7 @@ var product_data = [
     brand: "Mkt: Inlife Pharma",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/858136/inlife_vitamin_b12_tablets_60_s_0.jpg",
+    popularity: 3,
   },
   {
     name: "HeakthAid Vitamin C (orange) 100mg",
@@ -125,6 +134,7 @@ var product_data = [
     brand: "Mkt: Radicura Pharmaceuticals",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/408877/healthaid_vitamin_c_orange_1000_mg_effervescent_tablets_20_s_0.jpg",
+    popularity: 9,
   },
   {
     name: "PureFoods Vitamin-E",
@@ -133,6 +143,7 @@ var product_data = [
     brand: "Mkt: Rollins International",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/959840/purefoods_vitamin_e_softgel_capsule_60s_0_0.jpg",
+    popularity: 5,
   },
   {
     name: "PureFoods Multivitamin 100mg",
@@ -141,6 +152,7 @@ var product_data = [
     brand: "Mkt: Rollins International",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/959839/purefoods_multivitamin_for_women_tablet_60s_0_0.jpg",
+    popularity: 1,
   },
   {
     name: "PureFoods Multivitamin",
@@ -149,6 +161,7 @@ var product_data = [
     brand: "Mkt: Rollins International",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/959838/purefoods_multivitamin_for_men_tablet_60s_0_0.jpg",
+    popularity: 7,
   },
   {
     name: "Neurapid Astaxanthin Capsule ",
@@ -157,6 +170,7 @@ var product_data = [
     brand: "Mkt: Amritha Naturmed's Herbal Products",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/960517/neurapid_astaxanthin_veg_capsule_60s_0_0.jpg",
+    popularity: 6,
   },
   {
     name: "Neurapid Coenzyme Q10 ",
@@ -165,6 +179,7 @@ var product_data = [
     brand: "Mkt: Amritha Naturmed's Herbal Products",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/960516/neurapid_coenzyme_q10_veg_capsule_60s_0_0.jpg",
+    popularity: 2,
   },
   {
     name: "Neurapid Pre and Probiotics 30",
@@ -173,6 +188,7 @@ var product_data = [
     brand: "zydus",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/947122/neurapid_pre_and_probiotics_30_billion_cfu_veg_capsule_60s_0_1.jpg",
+    popularity: 9,
   },
   {
     name: "Neurapid Pre Probiotics 50 Billion",
@@ -181,6 +197,7 @@ var product_data = [
     brand: "zydus",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/947111/neurapid_pre_probiotics_50_billion_cfu_with_digestive_enzymes_tablet_60s_0_1.jpg",
+    popularity: 2,
   },
   {
     name: "Probiotics 50 Billion",
@@ -189,6 +206,7 @@ var product_data = [
     brand: "BonAyu Probiotics",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/915371/bonayu_probiotics_for_kids_mouth_dissolving_strip_with_real_chocolate_30s_0_1.jpg",
+    popularity: 1,
   },
   {
     name: "BonAyu Probiotics ",
@@ -197,6 +215,7 @@ var product_data = [
     brand: "BonAyu Probiotics",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/915368/bonayu_probiotics_for_adults_mouth_dissolving_strip_30s_0_1.jpg",
+    popularity: 2,
   },
   {
     name: "Boldfit Probiotics Capsule 60's ",
@@ -205,6 +224,7 @@ var product_data = [
     brand: "zydus",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/931425/boldfit_probiotics_capsule_60s_0_0.jpg",
+    popularity: 6,
   },
   {
     name: "CF Probiotics 30 Billion+ ",
@@ -213,6 +233,7 @@ var product_data = [
     brand: "zydus",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/913822/cf_probiotics_30_billion_veg_softgel_capsule_100s_0_1.jpg",
+    popularity: 3,
   },
   {
     name: "Shreys Biofibe - Pre & Probiotic",
@@ -221,6 +242,7 @@ var product_data = [
     brand: "BonAyu Probiotics",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/848753/shreys_biofibe_pre_probiotic_for_digestive_health_immunity_60_s_0.jpg",
+    popularity: 1,
   },
   {
     name: "Pro Active Sachet 1gm",
@@ -229,6 +251,7 @@ var product_data = [
     brand: "BonAyu Probiotics",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/857271/pro_active_sachet_1gm_0.jpg",
+    popularity: 8,
   },
   {
     name: "Tri-Activ Instant Hand Sanitizer",
@@ -237,6 +260,7 @@ var product_data = [
     brand: "Piramal Healthcare Ltd",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/910016/tri_activ_instant_hand_sanitizer_500_ml_0_1.jpg",
+    popularity: 7,
   },
   {
     name: "Dettol Instant Hand Sanitizer",
@@ -245,6 +269,7 @@ var product_data = [
     brand: "Reckitt Benckiser India Ltd",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/15129/dettol_hand_sanitizer_original_50_ml_0.jpg",
+    popularity: 4,
   },
   {
     name: "Dettol Disinfectant Lime",
@@ -253,6 +278,7 @@ var product_data = [
     brand: "Reckitt Benckiser India Ltd",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/15115/dettol_disinfectant_lime_fresh_200_ml_0_1.jpg",
+    popularity: 6,
   },
   {
     name: "Dettol Liquid HandWash",
@@ -261,6 +287,7 @@ var product_data = [
     brand: "Reckitt Benckiser India Ltd",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/822646/dettol_liquid_handwash_refill_original_750_ml_0.jpg",
+    popularity: 2,
   },
   {
     name: "Zebronics Fingertip Pulse Oximeter",
@@ -269,6 +296,7 @@ var product_data = [
     brand: "Zebronics India Private Limited",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/915643/zebronics_fingertip_pulse_oximeter_zeb_fpo500_0_0.jpg",
+    popularity: 1,
   },
   {
     name: "Choicemmed Pulse Oximeter",
@@ -277,6 +305,7 @@ var product_data = [
     brand: "Beijing Choice Electronic",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/858055/choicemmed_finger_tip_pulse_oximeter_0.jpg",
+    popularity: 6,
   },
   {
     name: "Finger Tip Pulse Oximeter",
@@ -285,6 +314,7 @@ var product_data = [
     brand: "Sahyog Wellness Infrared Thermometer",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/902221/sahyog_wellness_multi_function_non_contact_body_object_infrared_thermometer_0_1.jpg",
+    popularity: 9,
   },
   {
     name: "Dr.Morepen Digital Thermometer ",
@@ -293,6 +323,7 @@ var product_data = [
     brand: "Dr.Morepen Digital",
     image:
       "https://www.netmeds.com/images/product-v1/150x150/407903/dr_morepen_digital_thermometer_flexi_tip_mt222_0.jpg",
+    popularity: 6,
   },
 ];
 
@@ -403,6 +434,14 @@ function lowtohigh() {
   var product_list = JSON.parse(localStorage.getItem("products"));
   product_list.sort(function (a, b) {
     return a.price - b.price;
+  });
+  appendProducts(product_list);
+}
+
+function popularity() {
+  var product_list = JSON.parse(localStorage.getItem("products"));
+  product_list.sort(function (a, b) {
+    return b.popularity - a.popularity;
   });
   appendProducts(product_list);
 }

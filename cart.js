@@ -117,6 +117,8 @@ no_of_product_display.append(total_product_p);
 var Total_price_display = document.getElementById("mrptotal");
 Total_price_display.append(`Rs.${cartValue}`);
 
+localStorage.setItem("mrptotal", JSON.stringify(cartValue));
+
 // discount
 
 function applyDiscount() {
@@ -133,10 +135,13 @@ function applyDiscount() {
   document.getElementById("meddiscountdisplay").innerHTML = null;
   discount_display.append(`Rs.${discount}`);
 
+  localStorage.setItem("discount", JSON.stringify(discount));
+
   let totalamount = price - discount;
   let total_display = document.getElementById("totalamountdisplay");
   document.getElementById("totalamountdisplay").innerHTML = null;
   total_display.append(`Rs.${totalamount}`);
+  localStorage.setItem("totalamount", JSON.stringify(totalamount));
 
   let total_display1 = document.getElementById("totalamountdisplay1");
   document.getElementById("totalamountdisplay1").innerHTML = null;
