@@ -1,4 +1,4 @@
-window.addEventListener("scroll", function () {
+window.addEventListener("load", function () {
   var navbar = document.getElementById("header");
 
   if (window.pageYOffset == 0) {

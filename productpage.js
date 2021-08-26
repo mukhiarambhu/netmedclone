@@ -36,7 +36,7 @@ function slider() {
 slider();
 
 //adding sticky menu
-window.addEventListener("scroll", function () {
+window.addEventListener("load", function () {
   var navbar = document.getElementById("header");
 
   if (window.pageYOffset == 0) {
@@ -356,6 +356,7 @@ function addtoCart(el) {
   var cart_total_p = document.createElement("p");
   cart_total_p.innerText = total_cart_product;
   totacartdisplay.append(cart_total_p);
+  console.log(total_cart_product);
 }
 
 // console.log(product_list);

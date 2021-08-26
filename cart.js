@@ -1,6 +1,6 @@
 //providing sticky part
 
-window.addEventListener("scroll", function () {
+window.addEventListener("load", function () {
   var navbar = document.getElementById("divPanel1");
 
   if (window.pageYOffset == 0) {

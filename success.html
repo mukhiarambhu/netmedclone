@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="success.css">
+</head>
+
+<body>
+    <div id='main'>
+        <div id="containerDiv">
+            <h1>ThankYou! We are Shipping Your Order</h1>
+            <p>Wish You good Health</p>
+            <img src="https://ubtpro.in/img/medicine-courier-service-in-india.png" alt="">
+            <button onclick="backtohome()">HOME</button>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    function backtohome() {
+        window.location.href = "home.html"
+    }
+    window.addEventListener('load', function () {
+        setInterval(function () {
+            window.location.href = "home.html"
+        }, 4000)
+    })
+</script>
