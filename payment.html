@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <img src="https://www.netmeds.com/msassets/home-logo-netmeds-new.svg" alt="">
+    </div>
+
+    <div id="paymentbanner">
+        <h2>Payment Details</h2>
+        <div id="bannerdetails">
+            <div id="div1">
+                <img src="https://www.netmeds.com/msassets/images/icons/shopping-cart-added-white.svg" alt="">
+                <p>Your Cart</p>
+            </div>
+            <hr>
+            <div id="div2">
+                <img src="https://www.netmeds.com/msassets/images/icons/order-in-process-white.svg" alt="">
+                <p>order Review</p>
+            </div>
+            <hr>
+            <div id="div3">
+                <img src="https://www.netmeds.com/msassets/images/icons/rupee_white_icon.svg" alt="">
+                <p>Payment Details</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="detaildiv">
+        <div id="leftdiv">
+            <h4>PREFERED PAYMENT</h4>
+            <div class="upibanner">
+                <div> <a href="#"> <img src="https://www.netmeds.com/assets/pgicon/Mobikwik_lo.png" alt=""> </a></div>
+
+                <h5>MobiKwik</h5>
+                <p>MobiKwik Link
+                    Pay via MobiKwik for your order and get assured MobiKwik cashback up to Rs. 600*. Min. order: Rs.
+                    750. Valid once per
+                    user. TCA.</p>
+
+            </div>
+
+            <div class="upibanner">
+                <div> <a href="#"> <img src="https://www.netmeds.com/assets/pgicon/Paytm_lo.png" alt=""> </a></div>
+
+                <h5>Paytm</h5>
+                <p>MobiKwik Link
+                    Pay using Paytm UPI/Wallet during the offer period and get guaranteed 2500 Paytm cashback points.
+                    MOV: Rs. 799. Valid
+                    for all users. TCA.</p>
+
+            </div>
+            <div class="upibanner">
+                <div> <a href="#"> <img src="https://www.netmeds.com/assets/pgicon/Phone_Pay_lo.png" alt=""> </a></div>
+
+                <h5>PhonePe</h5>
+                <p>Pay via your PhonePe wallet and get assured cashback between Rs. 20 to Rs. 500. Valid once for new
+                    users only during the
+                    offer period. Min. order: Rs. 500. TCA.
+                </p>
+
+            </div>
+
+            <div class="cardpayment">
+                <h5>CREDIT & DEBIT CARDS</h5>
+                <hr>
+                <a href="#">
+                    <h3 id='carddetaillink'>ADD NEW CARD</h3>
+                </a>
+
+            </div>
+
+            <div class="netbanking">
+                <h5>NET BANKING</h5>
+                <div id="bankdetail">
+                    <div id="individualbank">
+                        <img src="https://www.netmeds.com/assets/pgicon/axis.png" alt="">
+                        <p>Axis Bank</p>
+                    </div>
+                    <div id="individualbank">
+                        <img src="https://www.netmeds.com/assets/pgicon/Hdfc.png" alt="">
+                        <p>HDFC Bank</p>
+                    </div>
+                    <div id="individualbank">
+                        <img src="https://www.netmeds.com/assets/pgicon/icici.png" alt="">
+                        <p>ICICI Bank</p>
+                    </div>
+                    <div id="individualbank">
+                        <img src="https://www.netmeds.com/assets/pgicon/kotak.png" alt="">
+                        <p>Kotak Bank</p>
+                    </div>
+                    <div id="individualbank">
+                        <img src="https://www.netmeds.com/assets/pgicon/Sbi.png" alt="">
+                        <p>State Bank</p>
+
+                    </div>
+
+                </div>
+                <select>
+                    <option value="">MORE BANKS</option>
+                    <option>Dena Bank</option>
+                    <option>Punjab NAtional Bank</option>
+                    <option>Barcaleys Bank</option>
+                    <option>Maharashtra Bank</option>
+                </select>
+            </div>
+        </div>
+        <div id="rightdiv">
+            <div id="paymentDetails">
+                <h4>PAYMENT DETAILS</h4>
+                <div class="calculation">
+                    <p>MRP Total</p>
+                    <p id="mrptotal"></p>
+                </div>
+                <div class="calculation">
+                    <p>NetMeds Discount</p>
+                    <p id="meddiscountdisplay"></p>
+                </div>
+                <div class="calculation">
+                    <p class="bold">Total Amount*</p>
+                    <p class="bold" id="totalamountdisplay"></p>
+                </div>
+                <div id="showbanner">
+                    <p id="totalsaving_display">TOTAL SAVING</p>
+                </div>
+
+            </div>
+            <div id="disclaimer">
+                <p>Netmeds is a technology platform to facilitate transaction of business. The products and services
+                    are offered for sale
+                    by the sellers. The user authorizes the delivery personnel to be his agent for delivery of the
+                    goods. For details read
+                    <span>Terms & Conditions</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="payment.js"></script>

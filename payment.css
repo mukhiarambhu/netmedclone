@@ -1,0 +1,281 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f6f6f7;
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: #24aeb1;
+  display: flex;
+  align-items: center;
+}
+
+#header > img {
+  height: 55px;
+  margin-left: 10%;
+}
+#paymentbanner {
+  margin: auto;
+  margin-top: 15px;
+  width: 70%;
+  display: flex;
+  background-color: #151b39;
+  height: 70px;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+#paymentbanner > h2 {
+  font-family: LatoBold;
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding-left: 25px;
+}
+#bannerdetails {
+  display: flex;
+}
+#div1,
+#div2,
+#div3 {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#div3 {
+  margin-right: 20px;
+}
+#div1 p,
+#div2 p,
+#div3 p {
+  color: white;
+  font-size: 12px;
+  margin-top: 2px;
+  font: 300;
+  font-weight: 100;
+}
+#div1 img,
+#div2 img,
+#div3 img {
+  margin-left: 40%;
+}
+hr {
+  color: white;
+  height: 0.3px;
+  width: 60px;
+  background-color: white;
+  margin-top: 20px;
+}
+#detaildiv {
+  width: 70%;
+  height: 700px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+#leftdiv {
+  width: 65%;
+  height: 500px;
+  /* border: 1px solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+}
+
+#rightdiv {
+  width: 33%;
+  height: 300px;
+  /* border: 1px solid black; */
+  margin-left: 20px;
+}
+
+#leftdiv h4 {
+  padding-left: 15px;
+  margin-top: 15px;
+  font-family: LatoBold;
+  font-size: 12px;
+  color: rgba(21, 27, 57, 0.6);
+}
+
+.upibanner,
+.cardpayment,
+.netbanking {
+  /* border: 1px solid black; */
+  margin-left: 15px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+.upibanner div img {
+  float: left;
+  padding: 15px;
+  width: 50px;
+}
+.upibanner h5 {
+  padding-left: 70px;
+  font-family: Lato;
+  font-size: 14px;
+  color: #151b39;
+}
+.upibanner p {
+  font-family: Lato;
+  font-size: 12px;
+  color: rgba(21, 27, 57, 0.6);
+}
+
+.cardpayment h5,
+.netbanking h5 {
+  padding-left: 15px;
+  font-family: LatoBold;
+  font-size: 12px;
+  color: rgba(21, 27, 57, 0.6);
+}
+.netbanking {
+  height: 250px;
+}
+.cardpayment hr {
+  width: 94%;
+  margin: auto;
+}
+.cardpayment h3 {
+  font-family: LatoBold;
+  font-size: 14px;
+  color: #24aeb1;
+  letter-spacing: 1px;
+  margin-left: 40%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#bankdetail {
+  display: flex;
+}
+
+#individualbank {
+  width: 98%;
+  margin-left: 45px;
+}
+#individualbank p {
+  font-family: Lato;
+  font-size: 10px;
+  color: rgba(21, 27, 57, 0.6);
+  /* margin-left: 25px; */
+}
+select {
+  width: 50%;
+  height: 30px;
+  margin-left: 15px;
+  background-color: white;
+  margin-bottom: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  color: rgba(21, 27, 57, 0.8);
+}
+
+#orderrightdiv {
+  width: 35%;
+  display: flex;
+  height: 600px;
+  /* border: 1px solid black; */
+  margin-left: 15px;
+  flex-direction: column;
+}
+#paymentDetails {
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  height: 300px;
+}
+#paymentDetails h4 {
+  font-family: LatoBold;
+  font-size: 12px;
+  color: rgba(21, 27, 57, 0.6);
+  padding: 10px 0 20px 16px;
+}
+.calculation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+.calculation p {
+  padding: 10px;
+  font-family: Lato;
+  font-size: 14px;
+  color: #151b39;
+  line-height: 24px;
+}
+.bold {
+  font-family: LatoBold;
+  font-size: 15px;
+  color: #151b39;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+#showbanner {
+  width: 96%;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+  background-color: #f3f8ec;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#showbanner p {
+  margin-top: 10px;
+  font-family: LatoBold;
+  font-size: 15px;
+  color: #378f30;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+#proceedtocheckout {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+#proceedtocheckout p:nth-child(1) {
+  margin-left: 50px;
+  font-family: LatoBold;
+  font-size: 10px;
+  color: #151b39;
+}
+
+#proceedtocheckout p:nth-child(2) {
+  margin-left: 50px;
+}
+#proceed {
+  margin-left: 25px;
+  width: 150px;
+  height: 40px;
+  background: #24aeb1;
+  font-family: LatoBold;
+  color: white;
+  border-radius: 10px;
+  border-radius: 10px;
+
+  padding: 15px;
+}
+
+#disclaimer {
+  margin-top: 20px;
+}
+#disclaimer p {
+  font-family: Lato;
+  font-size: 13px;
+  color: rgba(21, 27, 57, 0.6);
+  font-style: italic;
+}
+
+#disclaimer p span {
+  color: blue;
+}
