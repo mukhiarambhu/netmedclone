@@ -445,3 +445,143 @@ function popularity() {
   });
   appendProducts(product_list);
 }
+
+//filter product
+
+//multivitamin
+let parsed_data1 = JSON.parse(localStorage.getItem("products"));
+function checkboxvitamin() {
+  if (chechbox1.checked === true) {
+    displaydiv.innerHTML = null;
+    parsed_data1.forEach(function (product) {
+      if (product.Category == "multivitamin") {
+        let div = document.createElement("div");
+
+        let p_image = document.createElement("img");
+        p_image.src = product.image;
+
+        let p_name = document.createElement("h5");
+        p_name.innerText = product.name;
+
+        let company_name = document.createElement("p");
+        company_name.innerText = product.brand;
+
+        let p_price = document.createElement("p");
+        p_price.innerText = `Rs. ${product.price}`;
+
+        let btn = document.createElement("button");
+        btn.innerHTML = "ADD TO CART";
+        div.append(p_image, p_name, company_name, p_price, btn);
+        displaydiv.append(div);
+
+        btn.onclick = function () {
+          addtoCart(product);
+        };
+      }
+    });
+  }
+}
+var chechbox1 = document.getElementById("Multivitamin");
+chechbox1.addEventListener("click", checkboxvitamin);
+
+//Probiotics
+
+function checkboxprobiotics() {
+  displaydiv.innerHTML = null;
+  parsed_data1.forEach(function (product) {
+    if (product.Category == "Probitic") {
+      let div = document.createElement("div");
+
+      let p_image = document.createElement("img");
+      p_image.src = product.image;
+
+      let p_name = document.createElement("h5");
+      p_name.innerText = product.name;
+
+      let company_name = document.createElement("p");
+      company_name.innerText = product.brand;
+
+      let p_price = document.createElement("p");
+      p_price.innerText = `Rs. ${product.price}`;
+
+      let btn = document.createElement("button");
+      btn.innerHTML = "ADD TO CART";
+      div.append(p_image, p_name, company_name, p_price, btn);
+      displaydiv.append(div);
+
+      btn.onclick = function () {
+        addtoCart(product);
+      };
+    }
+  });
+}
+var checkbox2 = document.getElementById("Probiotics");
+checkbox2.addEventListener("click", checkboxprobiotics);
+
+//medicine
+
+function checkboxmedicine() {
+  displaydiv.innerHTML = null;
+  parsed_data1.forEach(function (product) {
+    if (product.Category == "medicine") {
+      let div = document.createElement("div");
+
+      let p_image = document.createElement("img");
+      p_image.src = product.image;
+
+      let p_name = document.createElement("h5");
+      p_name.innerText = product.name;
+
+      let company_name = document.createElement("p");
+      company_name.innerText = product.brand;
+
+      let p_price = document.createElement("p");
+      p_price.innerText = `Rs. ${product.price}`;
+
+      let btn = document.createElement("button");
+      btn.innerHTML = "ADD TO CART";
+      div.append(p_image, p_name, company_name, p_price, btn);
+      displaydiv.append(div);
+
+      btn.onclick = function () {
+        addtoCart(product);
+      };
+    }
+  });
+}
+var checkbox3 = document.getElementById("medicine");
+checkbox3.addEventListener("click", checkboxmedicine);
+
+//covide essential
+
+function checkboxcovid() {
+  displaydiv.innerHTML = null;
+  parsed_data1.forEach(function (product) {
+    if (product.Category == "covid Essential") {
+      let div = document.createElement("div");
+
+      let p_image = document.createElement("img");
+      p_image.src = product.image;
+
+      let p_name = document.createElement("h5");
+      p_name.innerText = product.name;
+
+      let company_name = document.createElement("p");
+      company_name.innerText = product.brand;
+
+      let p_price = document.createElement("p");
+      p_price.innerText = `Rs. ${product.price}`;
+
+      let btn = document.createElement("button");
+      btn.innerHTML = "ADD TO CART";
+      div.append(p_image, p_name, company_name, p_price, btn);
+      displaydiv.append(div);
+
+      btn.onclick = function () {
+        addtoCart(product);
+      };
+    }
+  });
+}
+var checkbox4 = document.getElementById("covid Essential");
+checkbox4.addEventListener("click", checkboxcovid);

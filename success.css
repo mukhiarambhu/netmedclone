@@ -25,7 +25,7 @@ img {
 }
 
 button {
-  background-image: linear-gradient(to bottom right, #89216b, #da4453);
+  background-image: linear-gradient(to bottom right, #947c8d, #2fbe9f);
   box-shadow: 0 28px 18px -23px #da4453;
   cursor: pointer;
   width: 50%;

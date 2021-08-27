@@ -152,3 +152,15 @@ function applyDiscount() {
 
   document.getElementById("promocode").value = null;
 }
+
+var showaddress = document.getElementById("addressdiv");
+
+showaddress.addEventListener("click", () => {
+  newaddress.classList.add("show");
+  console.log("yes");
+});
+
+var saveaddress = document.getElementById("saveaddress");
+saveaddress.addEventListener("click", () => {
+  newaddress.classList.remove("show");
+});
